@@ -10,3 +10,5 @@ python manage.py startapp ads
 
 python manage.py makemigrations   --   Исполните миграции
 python manage.py migrate  
+
+python manage.py createsuperuser -- создаём суперпользователя
