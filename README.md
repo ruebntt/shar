@@ -7,3 +7,6 @@ pip install django djangorestframework  --  Установите Django и Djang
 django-admin startproject barter_platform  --  Создайте проект и приложение
 cd barter_platform
 python manage.py startapp ads
+
+python manage.py makemigrations   --   Исполните миграции
+python manage.py migrate  
